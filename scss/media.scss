@@ -1,0 +1,147 @@
+@media only screen and (max-width: 400px) {
+    
+    header {
+        overflow: hidden;
+        padding:10px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 40px;
+        .logo {
+            width: 140px;
+            height: 40px;
+        }
+    
+        nav {
+            display: none;
+            width: 20px;
+            .active {
+                color: #0082F3;
+            }
+            display: flex;
+            gap: 10px;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 10px;
+        }
+    }
+    .contact_block {
+        display: none;
+    }
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .info {
+        height: 560px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 150px;
+        .nefor {
+            display: none;
+        }
+    
+        .info-left {
+            margin-top: 50px;
+            h1 {
+                font-size: 0;
+                font-weight: 400;
+                font-size: 25px;
+                line-height: 60px;
+                width: 306px;
+                margin-bottom: 10px;
+            }
+            p {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 35px;
+                color: #333333;
+                width: 434px;
+            }
+    
+            .download {
+                display: flex;
+                gap: 10px;
+                margin-top: 30px;
+                .google {
+                    background: #EEEAFF;
+                    height: 50px;
+                    width: 150px;
+                    border-radius: 5px;
+                    img {
+                        width: 150px;
+                        height: 50px;
+                    }
+                }
+                .apple {
+                    background: #EEEAFF;
+                    height: 50px;
+                    width: 150px;
+                    border-radius: 5px;
+                    img {
+                        width: 150px;
+                        height: 50px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .info2 {
+        height: 560px;
+        display: flex;
+        gap: 300px;
+        margin-bottom: 100px;
+        .nefor {
+            display: none;
+        }
+    
+        .info-right {
+            margin-top: 150px;
+            h1 {
+                font-size: 0;
+                font-weight: 400;
+                font-size: 55px;
+                line-height: 60px;
+                width: 450px;
+                margin-bottom: 30px;
+            }
+            p {
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 35px;
+                color: #333333;
+                width: 310px;
+            }
+    
+            .download {
+                display: flex;
+                gap: 10px;
+                margin-top: 30px;
+                .google {
+                    background: #EEEAFF;
+                    height: 50px;
+                    width: 150px;
+                    border-radius: 5px;
+                    img {
+                        width: 150px;
+                        height: 50px;
+                    }
+                }
+                .apple {
+                    background: #EEEAFF;
+                    height: 50px;
+                    width: 150px;
+                    border-radius: 5px;
+                    img {
+                        width: 150px;
+                        height: 50px;
+                    }
+                }
+            }
+        }
+    }
+}

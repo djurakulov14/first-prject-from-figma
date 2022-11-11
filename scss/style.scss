@@ -1,0 +1,315 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+header {
+    padding:45px 100px;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+
+    nav {
+        .active {
+            color: #0082F3;
+        }
+        display: flex;
+        gap: 40px;
+    }
+}
+
+.contact_block {
+    background: #39CDCC;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius:6px 6px 0px 0px ;
+    height:36px;
+    width:108px;
+    transform: rotate(90deg);
+    padding:8px 26px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    position: relative;
+    left: -36px;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.info {
+    height: 560px;
+    display: flex;
+    gap: 400px;
+    margin-bottom: 150px;
+
+    .info-left {
+        margin-top: 150px;
+        h1 {
+            font-size: 0;
+            font-weight: 400;
+            font-size: 55px;
+            line-height: 60px;
+            width: 306px;
+            margin-bottom: 30px;
+        }
+        p {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 35px;
+            color: #333333;
+            width: 434px;
+        }
+
+        .download {
+            display: flex;
+            gap: 10px;
+            margin-top: 30px;
+            .google {
+                background: #EEEAFF;
+                height: 50px;
+                width: 150px;
+                border-radius: 5px;
+                img {
+                    width: 150px;
+                    height: 50px;
+                }
+            }
+            .apple {
+                background: #EEEAFF;
+                height: 50px;
+                width: 150px;
+                border-radius: 5px;
+                img {
+                    width: 150px;
+                    height: 50px;
+                }
+            }
+        }
+    }
+}
+
+.info2 {
+    height: 560px;
+    display: flex;
+    gap: 300px;
+    margin-bottom: 100px;
+
+    .info-right {
+        margin-top: 150px;
+        h1 {
+            font-size: 0;
+            font-weight: 400;
+            font-size: 55px;
+            line-height: 60px;
+            width: 450px;
+            margin-bottom: 30px;
+        }
+        p {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 35px;
+            color: #333333;
+            width: 310px;
+        }
+
+        .download {
+            display: flex;
+            gap: 10px;
+            margin-top: 30px;
+            .google {
+                background: #EEEAFF;
+                height: 50px;
+                width: 150px;
+                border-radius: 5px;
+                img {
+                    width: 150px;
+                    height: 50px;
+                }
+            }
+            .apple {
+                background: #EEEAFF;
+                height: 50px;
+                width: 150px;
+                border-radius: 5px;
+                img {
+                    width: 150px;
+                    height: 50px;
+                }
+            }
+        }
+    }
+}
+
+.info3 {
+    margin-bottom: 100px;
+    text-align: center;
+    h1 {
+        margin-bottom: 40px;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+
+
+
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+            
+            div {
+                background: #582EFF;
+                width: 100%;
+                height: 12px;
+            }
+            img {
+                width: 60px;
+                height: 60px;
+            }
+            span {
+                display: block;
+                width: 268px;
+                margin-bottom: 75px;
+            }
+            width: 100px;
+            height: 300px;
+            border-radius: 5px;
+            border: 2px solid #B7B7B750;
+        }
+    }
+
+    // .swiper-slide {
+    //     text-align: center;
+    //     font-size: 18px;
+    //     background: #fff;
+
+    //     /* Center slide text vertically */
+    //     display: -webkit-box;
+    //     display: -ms-flexbox;
+    //     display: -webkit-flex;
+    //     display: flex;
+    //     -webkit-box-pack: center;
+    //     -ms-flex-pack: center;
+    //     -webkit-justify-content: center;
+    //     justify-content: center;
+    //     -webkit-box-align: center;
+    //     -ms-flex-align: center;
+    //     -webkit-align-items: center;
+    //     align-items: center;
+    //   }
+
+    //   .swiper-slide img {
+    //     display: block;
+    //     width: 100%;
+    //     height: 100%;
+    //     object-fit: cover;
+    //   }
+} 
+
+
+.pre_footer {
+    padding: 130px 0 80px 0 ;
+    width: 100%;
+    height: fit-content;
+    background: #31C5A1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+    p {
+        text-align: center;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 35px;
+        color: #fff;
+        width: 540px;
+    }
+    .download {
+        display: flex;
+        gap: 10px;
+        margin-top: 30px;
+        .google {
+            height: 50px;
+            width: 150px;
+            border-radius: 5px;
+            img {
+                width: 150px;
+                height: 50px;
+            }
+        }
+        .apple {
+            height: 50px;
+            width: 150px;
+            border-radius: 10px;
+            img {
+                width: 150px;
+                height: 50px;
+            }
+        }
+    }
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 50px;
+    img {
+        width: 150px;
+        height: 40px;
+    }
+
+    .adres {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .some_words {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 258px;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 30px;
+    }
+}
